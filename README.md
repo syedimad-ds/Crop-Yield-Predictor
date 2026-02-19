@@ -10,7 +10,7 @@ This project is an interactive Machine Learning web application designed to pred
 * **Model Serialization:** Joblib
 
 ## 🚀 Live Demo
-Check out the live web application here: **[Insert your Streamlit Link Here]**
+Check out the live web application here: **[https://crop-yield-predictor-k2.streamlit.app/]**
 
 ## 🧠 How It Works
 The core of this application is an **XGBoost Regressor**, trained on a large dataset of agricultural metrics. 
