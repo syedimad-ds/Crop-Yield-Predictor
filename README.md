@@ -27,3 +27,13 @@ The core of this application is an **XGBoost Regressor**, trained on a large dat
 1. Clone this repository to your local machine.
 2. Install the required packages: `pip install -r requirements.txt`
 3. Run the Streamlit app: `streamlit run app.py`
+
+
+## ⚠️ Model Limitations & Real-World Applicability
+While this model achieves high accuracy on the provided dataset, it is important to note its limitations if applied to real-world agricultural environments:
+
+* **Synthetic/Simplified Data:** The dataset uses broad, generalized categories. For instance, `Fertilizer_Used` is a simple True/False boolean. In reality, crop yield heavily depends on the *exact composition* (NPK ratio) and *quantity* of the fertilizer applied.
+* **Missing Micro-climate Variables:** The model relies on average temperature and rainfall. It does not account for hyper-local extreme weather events (e.g., a single day of unexpected frost, hail, or severe drought) which can decimate a yield despite good average conditions.
+* **Biological Factors Excluded:** Crucial biological elements such as pest infestations, weed competition, seed variety genetics, and soil nutrient depletion over time are not captured in this dataset.
+
+**Future Improvements:** To make this model production-ready for commercial farming, the dataset would need to be enriched with satellite imagery (for precise weather/soil moisture tracking), IoT sensor data from tractors, and specific chemical soil analyses.
