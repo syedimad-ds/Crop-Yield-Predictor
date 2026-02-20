@@ -12,6 +12,9 @@ This project is an interactive Machine Learning web application designed to pred
 ## 🚀 Live Demo
 Check out the live web application here: **[https://crop-yield-predictor-k2.streamlit.app/]**
 
+## 📊 Dataset
+Kaggle Dataaset: **[https://www.kaggle.com/datasets/samuelotiattakorah/agriculture-crop-yield]**
+
 ## 🧠 How It Works
 The core of this application is an **XGBoost Regressor**, trained on a large dataset of agricultural metrics. 
 1. **Preprocessing:** Categorical data (like Soil Type and Region) are transformed using One-Hot Encoding. Boolean values (Fertilizer/Irrigation usage) are mapped to integers.
