@@ -22,6 +22,7 @@ The core of this application is an **XGBoost Regressor**, trained on a large dat
 
 ## 📂 Repository Structure
 * `app.py`: The Streamlit web application script.
+* `crop_yield.ipynb`: The Jupyter Notebook containing the Exploratory Data Analysis (EDA), feature engineering, and XGBoost model training.
 * `crop_yield_model.pkl`: The serialized XGBoost regression model.
 * `model_columns.pkl`: The saved feature columns ensuring input alignment.
 * `requirements.txt`: The dependencies required to run the app.
